@@ -49,7 +49,7 @@ test:
     - pip check || exit 0  # [win]
 
 about:
-  home: {{ git_url }}
+  home: https://github.com/astropy/pytest-astropy
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
@@ -58,8 +58,8 @@ about:
     This is a meta-package that pulls in the dependencies that are used by
     astropy and some affiliated packages for testing. It can also be used for
     testing packages that are not affiliated with the Astropy project.
-  doc_url: {{ git_url }}
-  dev_url: {{ git_url }}
+  doc_url: https://github.com/astropy/pytest-astropy
+  dev_url: https://github.com/astropy/pytest-astropy
 
 extra:
   recipe-maintainers:
