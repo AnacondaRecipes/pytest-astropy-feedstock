@@ -38,15 +38,11 @@ requirements:
 
 test:
   imports:
-    - pytest_remotedata
-    - pytest_doctestplus
-    - pytest_openfiles
-    - pytest_arraydiff
+    - pytest_astropy
   requires:
     - pip
   commands:
-    - pip check || true    # [not win]
-    - pip check || exit 0  # [win]
+    - pip check
 
 about:
   home: https://github.com/astropy/pytest-astropy
