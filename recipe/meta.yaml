@@ -35,6 +35,8 @@ requirements:
     - pytest-mock >=2.0
     - attrs >=19.2.0
     - hypothesis >=5.1
+  run_constrained:
+    - pytest-mpl >=0.11
 
 test:
   imports:
