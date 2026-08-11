@@ -23,7 +23,6 @@ requirements:
     - setuptools >=30.3.0
     - setuptools_scm
     - wheel
-    - setuptools-scm
   run:
     - python
     - pytest >=4.6
@@ -36,6 +35,7 @@ requirements:
     - pytest-mock >=2.0
     - attrs >=19.2.0
     - hypothesis >=5.1
+    - pytest-skip-slow >=1.1.0
   run_constrained:
     - pytest-mpl >=0.11
 
