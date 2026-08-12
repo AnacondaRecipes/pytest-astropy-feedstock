@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/p/pytest-astropy/pytest_astropy-0.12.0.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_astropy-0.12.0.tar.gz
   sha256: {{ sha256 }}
 
 build:
